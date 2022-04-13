@@ -1,23 +1,4 @@
-people = int(input())
-lift = [int(x) for x in input().split(" ")]
-
-for i in range(len(lift)):
-    while not lift[i] == 4:
-        if people > 0:
-            lift[i] += 1
-            people -= 1
-        else:
-            break
-
-if people <= 0 and sum(lift) < len(lift) * 4:
-    print("The lift has empty spots!")
-elif people > 0 and sum(lift) == len(lift) * 4:
-    print(f"There isn't enough space! {people} people in a queue!")
-
-lift = [str(x) for x in lift]
-print(f"{' '.join(lift)}")
-
-
+# First solution of the problem:
 
 people = int(input())
 lift = [int(x) for x in input().split()]
@@ -42,6 +23,9 @@ lift = [str(x) for x in lift]
 print(f"{' '.join(lift)}")
 
 
+
+
+# Second solution of the problem:
 
 people = int(input())
 lift = [int(x) for x in input().split()]
