@@ -1,30 +1,37 @@
-# food = float(input()) * 1000
-# hay = float(input()) * 1000
-# cover = float(input()) * 1000
-# weight = float(input()) * 1000
-# is_over = False
-# counter = 0
-#
-# while counter < 30:
-#     counter += 1
-#     if counter % 1 == 0:
-#         food -= 300
-#     if counter % 2 == 0:
-#         hay -= food * 0.05
-#     if counter % 3 == 0:
-#         cover -= weight / 3
-#     if food <= 0 or hay <= 0 or cover <= 0:
-#         is_over = True
-#         break
-#
-# if is_over:
-#     print("Merry must go to the pet store!")
-# else:
-#     print(f"Everything is fine! Puppy is happy! Food: {food / 1000:.2f}, Hay: {hay / 1000:.2f}, Cover: {cover / 1000:.2f}.")
+# First solution of the problem:
+
+food = float(input()) * 1000
+hay = float(input()) * 1000
+cover = float(input()) * 1000
+weight = float(input()) * 1000
+is_over = False
+counter = 0
+
+while counter < 30:
+    counter += 1
+    if counter % 1 == 0:
+        food -= 300
+    if counter % 2 == 0:
+        hay -= food * 0.05
+    if counter % 3 == 0:
+        cover -= weight / 3
+    if food <= 0 or hay <= 0 or cover <= 0:
+        is_over = True
+        break
+
+if is_over:
+    print("Merry must go to the pet store!")
+else:
+    print(f"Everything is fine! Puppy is happy! Food: {food / 1000:.2f}, Hay: {hay / 1000:.2f}, Cover: {cover / 1000:.2f}.")
 
 
 
 
+    
+    
+    
+    
+# Second solution of the problem:
 
 food_quantity =  float(input()) * 1000
 hay_quantity = float(input()) * 1000
