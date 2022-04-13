@@ -1,31 +1,37 @@
-# list = input().split("!")
-# command = input()
-#
-# while command != "Go Shopping!":
-#     current_command = command.split()
-#
-#     if current_command[0] == "Urgent" and not current_command[1] in list:
-#             list.insert(0, current_command[1])
-#
-#     if current_command[0] == "Unnecessary" and current_command[1] in list:
-#             list.remove(current_command[1])
-#
-#     if current_command[0] == "Correct" and current_command[1] in list:
-#         current_index = list.index(current_command[1])
-#         list[current_index] = current_command[2]
-#
-#     if current_command[0] == "Rearrange" and current_command[1] in list:
-#             list.remove(current_command[1])
-#             list.append(current_command[1])
-#
-#     command = input()
-#
-# new_list = ", ".join(list)
-# print(new_list)
+# First solution of the problem:
+
+list = input().split("!")
+command = input()
+
+while command != "Go Shopping!":
+    current_command = command.split()
+
+    if current_command[0] == "Urgent" and not current_command[1] in list:
+            list.insert(0, current_command[1])
+
+    if current_command[0] == "Unnecessary" and current_command[1] in list:
+            list.remove(current_command[1])
+
+    if current_command[0] == "Correct" and current_command[1] in list:
+        current_index = list.index(current_command[1])
+        list[current_index] = current_command[2]
+
+    if current_command[0] == "Rearrange" and current_command[1] in list:
+            list.remove(current_command[1])
+            list.append(current_command[1])
+
+    command = input()
+
+new_list = ", ".join(list)
+print(new_list)
 
 
 
 
+
+
+
+# Second solution of the problem:
 
 initial_list = [text for text in input().split("!")]
 
