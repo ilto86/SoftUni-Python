@@ -1,3 +1,7 @@
+'''
+First Solution
+'''
+
 # n = int(input())
 # courses = []
 #
@@ -7,9 +11,19 @@
 #
 # print(courses)
 
+
+'''
+Second Solution
+'''
+
 number = int(input())
 courses = []
 
 for i in range(number):
     courses.append(input())
 print(courses)
+
+
+
+
+
