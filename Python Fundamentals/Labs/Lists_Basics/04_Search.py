@@ -1,3 +1,7 @@
+'''
+First Solution
+'''
+
 n = int(input())
 searched_word = input()
 
@@ -14,6 +18,9 @@ print(all_words)
 print(matched_words)
 
 
+'''
+Second Solution
+'''
 
 # n = int(input())
 # word = input()
