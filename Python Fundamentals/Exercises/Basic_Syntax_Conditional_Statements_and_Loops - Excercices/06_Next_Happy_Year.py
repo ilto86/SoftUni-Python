@@ -1,3 +1,7 @@
+'''
+First Solution
+'''
+
 current_year = int(input())
 while True:
     current_year += 1
@@ -14,6 +18,11 @@ while True:
         break
 
 
+
+'''
+Second Solution
+'''
+
 # current_year = int(input())
 # while True:
 #     current_year += 1
@@ -23,6 +32,10 @@ while True:
 #         break
 
 
+'''
+Third Solution
+'''
+
 # year = int(input())
 #
 # while True:
@@ -31,6 +44,10 @@ while True:
 #         print(year)
 #         break
 
+
+'''
+Fourth Solution
+'''
 
 # number = int(input()) + 1
 #
@@ -45,6 +62,10 @@ while True:
 #     year += 1
 # print(year)
 
+
+'''
+Fifth Solution
+'''
 
 # random_number = int(input()) + 1
 #

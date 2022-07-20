@@ -65,7 +65,7 @@ Second Solution
 
 
 '''
-Thirt Solution
+Third Solution
 '''
 
 number = int(input())

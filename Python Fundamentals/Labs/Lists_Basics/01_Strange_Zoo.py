@@ -25,7 +25,7 @@ Second Solution
 
 
 '''
-Thirt Solution
+Third Solution
 '''
 
 tail = input()
